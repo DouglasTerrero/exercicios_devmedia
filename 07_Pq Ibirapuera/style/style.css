@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 1000px;
+  margin: 0 auto;
+}
+h2{
+  margin-top: 15px;
+}
+.topo, .rodape{
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #3b6e1d;
+  color: #fff;
+  font-size: 22px;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.apresentacao img, .area p{
+  width: 100%;
+  margin: 15px 0;
+}
+
+
+.galeria{
+  margin: 20px 0;
+  display: flex;
+}
+.galeria h2{
+  display: inline-block;
+}
+
+.galeria img{
+  width: calc(100% /3) ;
+  margin: 0 1.5px;
+  }
