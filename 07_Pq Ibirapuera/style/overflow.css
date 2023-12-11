@@ -23,6 +23,10 @@ h2{
 body{
   font-family: Arial, Helvetica, sans-serif;
 }
+.area{
+  height: 400px;
+  overflow-y: scroll;
+}
 .apresentacao img, .area p{
   width: 100%;
   margin: 15px 0;
@@ -36,8 +40,9 @@ body{
 .galeria h2{
   display: inline-block;
 }
-
+/*A barra de rolagem foi criada na declaração da classe area com o overflow-y. O valor do overflow-x foi definido internamente como auto e por isso apareceu automaticamente.*/
 .galeria img{
+  height: 300px ;
   width: calc(100% /3) ;
   margin: 0 1.5px;
   }
