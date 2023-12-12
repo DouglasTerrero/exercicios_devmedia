@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+img{
+  width: 100%;
+}
+p{
+  line-height: 22px;
+}
+
+.topo{
+  background-color: #23b4eb;
+  text-align: center;
+  height: 48px;
+}
+.topo ul li{
+  display: inline;
+ 
+}
+.topo ul{
+  padding: 10px;
+}
+.topo a{
+  color: white;
+  padding: 10px 15px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+.area{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h2{
+  font-size: 1.8rem;
+  margin: 15px 0;
+}
+h3{
+  font-size: 1.5rem;
+}
+p{
+  margin: 20px 0;
+}
+#sobre img{
+  width: 100%;
+}
+#contato ul li{
+  display: inline;
+  background-color: #23b4eb;
+  color: white;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+#contato ul{
+  padding: 10px;
+}
+#contato a{
+  color: white;
+  padding: 10px 15px;
+  margin-right: 5px;
+  font-size: 20px;
+}
