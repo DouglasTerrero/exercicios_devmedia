@@ -1,0 +1,90 @@
+p{
+  margin-bottom: 30px;
+}
+.container{
+  border: 2px solid black;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+.box1, .box2, .box3, .box4{
+width: 100px;
+height: 100px;
+position: absolute;
+}
+.box1{
+background-color: blue;
+top: -25px;
+right: -25px;
+}
+.box2{
+background-color: brown;
+bottom: 40px;
+left: 20px;
+}
+.box3{
+background-color: yellow;
+top: 100px;
+left: 100px;
+}
+.box4{
+background-color: black;
+bottom: -40px;
+right: -110px;
+}
+.caixa {
+width: 500px;
+padding: 15px;
+border: 5px solid;
+margin-top: 50px;
+font-size: 18px;
+position: relative;
+}
+.rotulo {
+width: 60px;
+padding: 10px;
+font-size: 20px;
+text-align: center;
+background-color: #fff;
+color: #000;
+position: absolute;
+top: -25px;
+left: 15px;
+}
+.lista {
+max-width: 425px;
+border: 5px solid black;
+padding: 20px;
+}
+
+.lista h2 {
+text-align: center;
+font-size: 40px;
+margin-bottom: 20px;
+}
+
+.lista li span {
+font-size: 40px;
+border-top: 1px solid gray;
+}
+
+.lista li p {
+width: 250px;
+font-size: 18px;
+font-weight: 700;
+position: absolute;
+top: 10px;
+right: 0px;
+}
+
+.lista li {
+position: relative;
+list-style: none;
+}
+
+.lista li small {
+position: absolute;
+top: 10px;
+left: 50px;
+}
