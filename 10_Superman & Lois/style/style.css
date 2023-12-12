@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+li{
+  list-style: none;
+}
+img{
+  width: 100%;
+}
+p{
+  line-height: 28px;
+  margin: 12px 0;
+}
+h2{
+  text-align: center;
+  margin: 20px auto;
+}
+a{
+  text-decoration: none;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.container{
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.topo{
+  background-color: blue;
+  text-align: left;
+  font-size: 1.25rem;
+  padding: 15px 100px 20px 200px;
+}
+.topo p{
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  color: white;
+
+  display: inline;
+  margin-right: 50px;
+
+}
+.topo ul {
+  display: inline-block;
+}
+.topo ul li{
+  display: inline;
+  margin: 0 20px;
+}
+.galeria img{
+  width: 315px;
+  margin: 10px;
+}
+.galeria{
+  display: flex;
+  overflow-x: scroll;
+}
+.card-sombra{
+  box-shadow: 10px 10px 10px #939393;
+}
+.info{
+text-align: center;
+}
+.rodape p{
+  line-height: 22px;
+  margin: 8px 0;
+}
+.rodape{
+  text-align: center;
+  background-color: blue;
+  color: white;
+  padding: 1px;
+}
