@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+span,
+a {
+  font-weight: bold;
+  color: #f1c002;
+}
+h2 {
+  text-align: center;
+  margin: 20px auto;
+}
+.banner {
+  width: 100%;
+}
+.topo {
+  width: 100vw;
+  background-color: #000;
+  border-bottom: 1px solid #d5960054;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: fixed;
+  top: 0;
+  text-align: center;
+}
+.secao {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.topo h1 {
+  color: #f1c002;
+  text-align: center;
+}
+ul {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 10px 5px;
+}
+.intro {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 22px;
+}
+.secao img {
+  width: 450px;
+  margin-left:25%;
+}
+.maps{
+  position: relative;
+  
+}
+.maps iframe{
+  position: relative;
+  top: 5%;
+  left: 16%;
+}
+.rodape{
+  width: 670px;
+  padding: 15px;
+  background-color: #000000;
+  color: white;
+  margin: 0 auto;
+}
