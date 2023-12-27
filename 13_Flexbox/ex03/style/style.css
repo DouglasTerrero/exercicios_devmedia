@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+  margin-bottom: 15px;
+}
+body{
+  font-family: "Poppins",sans-serif;
+}
+.container-topo{
+  padding: 35px 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.container-logo{
+  max-width: 310px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.container-links{
+  max-width: 375px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.container-links a{
+  text-transform: uppercase;
+  color: #233032;
+  font-weight: bold;
+  text-decoration: none;
+}
+.container-links a:hover{
+  color: #fff;
+  background-color: #2f86f6;
+  padding: 0px 2px;
+  border-radius: 5px;
+  transition: 400ms;
+}
+
+.container-topo img{
+  width: 80px;
+}
+.container-logo p{
+  font-size: 12px;
+  font-weight: bold;
+  color: #2f86f6;
+}
+.banner{
+  background-color: #2f86f6;
+  padding: 35px 50px;
+}
+.banner-container{
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.banner-texto{
+  color: #fff;
+  padding: 10px 20px;
+ flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.banner-img{
+  flex: 1 1 468px;
+}
+.banner-img img{
+  width: 100%;
+  height: 100%;
+}
+.container-lista{
+  padding: 100px 50px;
+  background: #000 url(../img/bg.png) center no-repeat;
+background-size: cover;
+color: #fff;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.container-lista h2{
+  margin-bottom: 30px;
+
+}
+.lista-horarios{
+  width: 100%;
+  max-width: 768px;
+}
+.lista-horarios div{
+  height: 1px;
+  background-color: gray;
+  flex: 1 1 auto;
+}
+.lista-horarios span{
+  color: #c4a47c;
+  font-weight: bold;
+}
+.lista-horarios li{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.lista-horarios li h3{
+  flex: 0 1 80px;
+}
+.lista-horarios li span, p{
+  flex: 0 1 120px;
+  text-align: right;
+}
+.rodape {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  color: #fff;
+  background-color: black;
+}
+.rodape-imagem {
+  width: 100px;
+}
+.rodape-imagem img {
+  width: 120%;
+  height: 100%;
+}
+.rodape-contato {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.rodape-contato div {
+  padding: 10px 0;
+  width: 100px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  flex: 1 1 120px;
+  text-align: center;
+}
+.rodape-contato p {
+  text-align: center;
+}
+.rodape-descricao {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.rodape-descricao img {
+  width: 20%;
+  padding-right: 5px;
+}
+.rodape-descricao a {
+  width: 35px;
+  height: 35px;
+  background: #dddddd url("../img/seta-para-cima.png") center;
+  background-size: cover;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 48px;
+  right: 0px;
+}
+.rodape {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background-color: black;
+}
+.rodape-imagem {
+  width: 100px;
+}
+.rodape-imagem img {
+  width: 100%;
+  height: 100%;
+}
+.container-contato {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.container-contato div {
+  padding: 10px 0;
+  border: 1px solid gray;
+  border-radius: 4px;
+  flex: 1 1 240px;
+  text-align: center;
+}
+.container-descricao {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.container-descricao a {
+  width: 40px;
+  height: 40px;
+  background-image: url("seta.png");
+  background-position: center;
+  background-size: cover;
+  background-color: #dddddd;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 60px;
+  right: 0px;
+}
