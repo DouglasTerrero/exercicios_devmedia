@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+li{
+  list-style: none;
+}
+.container{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+.menu ul{
+  display: flex;
+  gap: 30px;
+}
+.banner{
+  background: #000 url(../img/bg-estacao.jpg) no-repeat center;
+  background-size: cover;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner h1{
+  color: #fff;
+  font-size: 5rem;
+}
+.banner p{
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+}
