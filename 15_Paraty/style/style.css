@@ -1,10 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+section{
+  padding-bottom: 30px;
+}
+h2{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.75rem;
+  padding: 40px 0;
+}
 body{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Poppins", Geneva, Tahoma, sans-serif;
 }
 a{
   text-decoration: none;
@@ -12,6 +22,17 @@ a{
 }
 li{
   list-style: none;
+}
+p{
+  margin: 30px 0;
+  line-height: 32px;
+}
+#sobre p::first-letter, #pontos p::first-letter{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.bg-pontos{
+  background-color: #b9d4fc;
 }
 .container{
   max-width: 1024px;
@@ -36,12 +57,58 @@ li{
   justify-content: center;
   align-items: center;
 }
+#secao-banner{
+  position: relative;
+}
+.banner::before{
+  content: "";
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.5;
+}
+.banner h1, .banner p{
+  z-index: 1;
+}
 .banner h1{
   color: #fff;
   font-size: 5rem;
 }
 .banner p{
   color: #fff;
-  font-size: 2rem;
+  font-size: 2.25rem;
   font-weight: bold;
+}
+img:nth-child(2){
+  width: 1024px;
+  display: block;
+  margin: 0 auto;
+}
+#pontos ul li::before{
+  content: "🗺️🌐🏖️⛺🌄"
+}
+.galeria-efeito img{
+  width: 330px;
+  opacity: 0.5;
+}
+.galeria-efeito img:hover{
+  opacity: 1;
+}
+.galeria-efeito {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.rodape{
+  text-align: center;
+  background-color: #F5C002;
+  margin-top: 40px;
+}
+.rodape p{
+  margin: 0;
+  padding: 10px 0;
 }
