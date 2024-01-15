@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Exercício com uso de formulários">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>AluCar</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <header class="cabecalho">
+    <p>AluCar</p>
+  </header>
+  <section class="banner">
+    <h1>AluCar</h1>
+    <p>Aluguel de Carros</p>
+  </section>
+
+  <main>
+    <section class="sobre container">
+      <h2 class="titulo">Sobre nós</h2>
+      <p>Há 45 anos atuando na área de locação de veículos com segurança e garantia de satisfação. Temos os melhores preços e modelos do mercado.</p>
+      <div class="imgs">
+        <img src="img/img1.jpg" alt="img1">
+        <img src="img/img2.jpg" alt="img2">
+        <img src="img/img3.jpg" alt="img3">
+      </div>
+      <div class="destaque">
+        <p>O compromisso da AluCar é com a <span>qualidade</span>.</p>
+        <p>Os <span>melhores</span> carros estão aqui.</p>
+        <p>Assistência <span>24hrs</span>.</p>
+      </div>
+    </section>
+    <section class="contato">
+      <h2 class="titulo">Contato</h2>
+      <div class="container">
+        <h4 class="titulo">Análise de cadastro</h4>
+        <p>Preencha os campos abaixo e analisaremos seus dados. Se tudo estiver correto ligaremos para marcar uma visita.</p>
+        <form method="post" action="https://www.devmedia.com.br/codigos/formularios/aula9/">
+          <fieldset class="campo">
+            <legend>Dados Pessoais</legend>
+            <div class="form-group">
+              <label for="nome">Nome</label>
+              <input type="text" placeholder="Digite seu nome inteiro" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+              <label for="data_nascimento">Data de Nascimento</label>
+              <input type="date" id="data_nascimento" max="2000-04-01" name="data_nascimento" required>
+            </div>
+            <div class="form-group">  
+              <label for="telefone">Telefone</label>
+              <input type="tel" placeholder="(XX) XXXXX-XXXX" maxlength="11" id="telefone" name="telefone" required>
+            </div>
+          </fieldset>
+          <fieldset >
+            <legend>CNH</legend>
+            <div class="form-group">
+              <label for="num_registro">Número do Registro</label>
+              <input type="number" placeholder="Informe o número da sua CNH"  minlength="4" maxlength="8"  id="num_registro" name="num_registro" required >
+            </div>
+            <div class="form-group">
+              <label for="validade">Validade</label>
+              <input type="date" id="validade" name="validade" required>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Carro</legend>
+            <div class="form-group">
+              <label for="carro">Modelo do Carro</label>
+            </div>
+              <select class="form-group" name="carro" id="carro">
+                <option value="">Escolha um carro</option>
+                <optgroup label="Volkswagem">
+                  <option value="gol">Gol</option>
+                  <option value="golf">Golf</option>
+                  <option value="fox">Fox</option>
+                </optgroup>
+                <optgroup label="Fiat">
+                  <option value="uno">Uno</option>
+                  <option value="siena">Siena</option>
+                  <option value="Palio">Palio</option>
+                </optgroup>
+                <optgroup label="Nissan">
+                  <option value="frontier">Frontier</option>
+                  <option value="versa">Versa</option>
+                  <option value="skyline">Skyline GT-R</option>
+                </optgroup>
+              </select>
+          </fieldset>
+          <button class="btn" type="submit">Enviar Dados</button>
+      </div>
+    </form>
+  </main>
+ <footer class="rodape">
+  <p>Copyright 2024 - Alucar</p>
+ </footer>
+  
+</body>
+</html>

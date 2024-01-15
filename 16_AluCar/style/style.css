@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+p{
+  line-height: 24px;
+}
+span{
+  font-weight: bold;
+}
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.destaque p{
+  border-left: 4px solid #4f4fc3;
+  padding: 0 10px;
+  margin: 8px 0;
+}
+.banner,.cabecalho , h2, h3, .rodape {
+  text-align: center;
+}
+.cabecalho{
+  padding: 20px 0;
+  background: #e1dddd;
+}
+.cabecalho p{
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(57, 29, 129);
+}
+.banner{
+  color: #e1dddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  background: #e1dddd url(../img/capa.jpg) no-repeat top center;
+  background-size: cover;
+}
+.banner h1{
+  font-size: 2.5rem;
+  position: relative;
+  z-index: 1;
+}
+.banner::after{
+  content: "";
+  width: 100%;
+  height: 150px;
+  background: #000000a7;
+  position: absolute;
+}
+.sobre, .contato{
+  margin: 60px auto;
+}
+.imgs{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+.imgs img{
+  box-shadow: 2px 2px 5px 5px #0000003e;
+}
+.titulo{
+  margin-bottom: 15px;
+}
+.campo{
+  margin: 20px 0;
+  padding: 10px 0;
+}
+
+.form-group{
+  margin: 10px;
+}
+.form-group input, select{
+  width: 100%;
+  padding: 5px 0;
+}
+.btn{
+  width: 100%;
+  margin: 15px auto;
+  padding: 15px 0;
+  border: none;
+  color: #e1dddd;
+  background: #4f4fc3;
+}
+.btn:hover{
+  background: #363690;
+  cursor: pointer;
+}
+.rodape p{
+  background-color: #e1dddd;
+  color: #363690;
+  font-weight: bold;
+  padding: 10px 0;
+
+}
